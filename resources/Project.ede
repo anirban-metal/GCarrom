@@ -1,0 +1,14 @@
+;; Object resources
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "resources"
+  :file "Project.ede"
+  :name "resources"
+  :targets (list 
+   (ede-proj-target-makefile-miscelaneous "resources"
+    :name "resources"
+    :path ""
+    :source '("bcoin.png" "queen.png" "striker.png" "wcoin.png" "board.png")
+    )
+   )
+  :makefile-type 'Makefile.am
+  )

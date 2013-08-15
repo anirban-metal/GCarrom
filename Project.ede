@@ -1,0 +1,8 @@
+;; Object gnarrom
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "gnarrom"
+  :file "Project.ede"
+  :name "gnarrom"
+  :targets 'nil
+  :makefile-type 'Makefile.am
+  )

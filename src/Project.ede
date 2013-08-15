@@ -1,0 +1,17 @@
+;; Object src
+;; EDE Project Files are auto generated: Do Not Edit
+(ede-proj-project "src"
+  :file "Project.ede"
+  :name "src"
+  :targets (list 
+   (ede-proj-target-makefile-program "gnarrom"
+    :name "gnarrom"
+    :path ""
+    :source '("game.cpp" "gameobjectmanager.cpp" "ingameobjects.cpp" "main.cpp")
+    :configuration-variables 'nil
+    )
+   )
+  :makefile-type 'Makefile.am
+  :variables '(("AM_CPPFLAGS" . "-I../includes $(gtkmm_CFLAGS)") ("gnarrom_LDFLAGS" . "$(gtkmm_LIBS) $(sfml_LIBS)"))
+  :configuration-variables 'nil
+  )
