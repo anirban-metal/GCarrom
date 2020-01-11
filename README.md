@@ -1,4 +1,4 @@
 GCarrom
 =======
 
-Still a work in progress, just a barely playable carrom game
+A two player carrom game created using SFML.
